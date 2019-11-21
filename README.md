@@ -11,5 +11,6 @@ New fields are added to both test and train dataset, based on quantities ordered
 The train_clean.csv is then used to create our model which is then used to predict food preparation times for test data. The deep learning model has 4 layers of neural networks with ReLU as the activation function used to predit these times. "final_predictions.csv" contains the predictions corresponding to every order of the test data. 
 
 "Poster.pdf" contains the poster that was presented at the 2019 Nexus Data Science Competition held at University of Manitoba, Winnipeg, Manitoba, Canada. 
-------------------------------------------------------------------------------------------------------------------------------------------
+
+**************************************
 The data science team at SkipTheDishes later provided "test_orders_target.csv" file which contains the actual food preparation time for the orders of test data. The comparisons of our "test_orders_target.csv" and "final_predictions.csv" is in the file "prediction_vs_actual_comparison.ipynb", in which we generate KDE plot ("prediction_vs_actual.png") and get the values of R^2 and RMSE. It turns out R^2 = 0.9599909551423244, and RMSE = 2.2393729909651934.  
